@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(2, 39, 75);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#game-container {
+  height: 70vh;
+  width: 90vw;
+  border: 2px solid white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+#player-choice {
+  background-color: red;
+  width: 40%;
+  height: 90%;
+}
+#ai-choice {
+  background-color: blueviolet;
+  width: 40%;
+  height: 90%;
+}
+#footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  height: 76px;
+  margin: 50px;
+}
+#rock-paper-scissors {
+  height: 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+#rock-paper-scissors img {
+  height: 100%;
+}
+#rock-paper-scissors img:hover {
+  border: 2px solid white;
+  height: 120%;
+}
