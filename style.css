@@ -18,11 +18,17 @@ body {
   background-color: red;
   width: 40%;
   height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #ai-choice {
   background-color: blueviolet;
   width: 40%;
   height: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 #footer {
   display: flex;
@@ -35,6 +41,7 @@ body {
 }
 #rock-paper-scissors {
   height: 50px;
+  width: 100%;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -45,4 +52,20 @@ body {
 #rock-paper-scissors img:hover {
   border: 2px solid white;
   height: 120%;
+}
+.big-choice {
+  border: 1px solid white;
+  height: 200px;
+  width: 200px;
+  margin: 50px;
+}
+.ai-big-choice {
+  border: 1px solid white;
+  height: 200px;
+  width: 200px;
+  margin: 50px;
+}
+.our-big-choice {
+  height: 90%;
+  width: 90%;
 }
